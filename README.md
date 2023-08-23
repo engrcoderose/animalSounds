@@ -14,9 +14,12 @@ Responsive Design: The project's layout and buttons are designed to be responsiv
 
 # Technologies Used:
 
-HTML: Used for structuring the web page content.
+HTML: Used for structuring the web page content. 
+
 CSS: Used for styling the buttons and adding animations.
+
 JavaScript: Used to handle button clicks, play audio, and manage animations.
+
 Audio Files: Sound files (e.g., dog.mp3, cat.mp3) are included to provide the animal sounds.
 
 # Project Purpose:
