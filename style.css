@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+    background-color: #884A39;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #F9E0BB;
+    font-family: "Arvo", cursive;
+    /* text-shadow: 3px 0 #DA0463; */
+  
+  }
+  
+  .description {
+    color:#FFC26F;
+    font-size: 25px;
+  }
+
+  footer {
+    margin-top: 50px;
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .dog {
+   background-image: url(img/dog.png);
+   background-size: cover;
+  }
+  
+  .cat {
+    background-image: url(img/cat.png);
+    background-size: cover;
+  }
+
+  
+  .bird {
+    background-image: url(img/bird.png);
+    background-size: cover;
+  }
+  
+  .cow {
+    background-image: url(img/cow.png);
+    background-size: cover;
+  }
+  
+  .chicken {
+    background-image: url(img/chicken.png);
+    background-size: cover;
+  }
+  
+  .goat {
+    background-image: url(img/goat.png);
+    background-size: cover;
+  }
+  
+  .pig {
+    background-image: url(img/pig.png);
+    background-size: cover;
+  }
+  .duck {
+    background-image: url(img/duck.jpg);
+    background-size: cover;
+  }
+  .cricket {
+    background-image: url(img/cricket.jpg);
+    background-size: cover;
+  }
+  .set {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 300px);
+    margin: 5px;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .animals {
+    outline: none;
+    border: 10px solid #C38154;
+    font-size: 2rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #884A39;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    max-width: 250px;
+    min-width: 50px;
+    height: 300px;
+    text-align:center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* align-items: center; */
+    transition: all 0.3s;
+  }
+  
+ /* Media query for smaller screens */
+@media (max-width: 768px) {
+  .set {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+  }
+  
+  .animals {
+    max-width: 100%; /* Full width for buttons on smaller screens */
+  }
+}
+
+/* Media query for even smaller screens (adjust breakpoints as needed) */
+@media (max-width: 480px) {
+  .set {
+    grid-template-columns: 1fr; /* Single column on even smaller screens */
+  }
+}
